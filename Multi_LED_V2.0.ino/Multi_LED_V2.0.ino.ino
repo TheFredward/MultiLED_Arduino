@@ -48,7 +48,12 @@ void loop() {
 }
 
 
-//function created to detect based on answers
+/*function created to detect user inputs
+ * @params str_val holds the requested color value
+ * num_val holds the # of blinks that the user requested
+ * points takes in the the string of whether the user wanted
+ * to light to blink
+*/
 void colorchoice(String str_val,int num_val, String points)
 {
     color = str_val;
